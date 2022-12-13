@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++){
+	    float a,x,b,y;
+	    cin>>a>>x>>b>>y;
+	    float c=a/x;
+	    float d=b/y;
+	    if(c>d)
+	    cout<<"Alice"<<endl;
+	    else if(c<d)
+	    cout<<"Bob"<<endl;
+	    else
+	    cout<<"Equal"<<endl;
+	}
+	return 0;
+}
