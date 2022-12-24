@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    for(int i=0;i<t;i++){
+	int a,b,c,d,m,n;
+	cin>>a>>b>>c>>d;
+        m=max(a,b);
+        n=max(c,d);
+        if(m>n){
+            cout<<"Q"<<endl;
+        }
+        else if(m==n){
+            cout<<"TIE"<<endl;
+        }
+        else{
+            cout<<"P"<<endl;
+        }
+    }
+	
+	return 0;
+}
