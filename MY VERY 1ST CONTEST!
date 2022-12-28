@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n,a,b;
+	cin>>n>>a>>b;
+	int x,y;
+	x = n-a;
+	y = x-b;
+	cout<< x <<" "<< y <<" "<<endl;
+	return 0;
+}
