@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++){
+	    int g,c;
+	    cin>>g>>c;
+	    int m=2*g;
+	    int n=c*c;
+	    cout<<n/m<<endl;
+	}
+	return 0;
+}
