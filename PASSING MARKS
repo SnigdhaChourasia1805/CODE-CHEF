@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,a,b,c,d,x,y,z;
+	cin>>t;
+	while(t--)
+	{
+	    int temp;
+	    cin>>a>>b>>c>>d>>x>>y>>z;
+	    temp=x+y+z;
+	    if(x>=a && y>=b && z>=c && temp>=d)
+	    cout<<"YES"<<endl;
+	    else
+	    cout<<"No"<<endl;
+	}
+	return 0;
+}
