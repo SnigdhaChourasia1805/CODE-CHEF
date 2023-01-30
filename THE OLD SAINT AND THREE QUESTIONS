@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int l,p,q,r,s,t,u,a;
+    cin>>l;
+    while(l--)
+    {   int b;
+        cin>>p>>q>>r>>s>>t>>u;
+        a=p+q+r;
+        b=s+t+u;
+        if(a==b)
+        {
+            cout<<"Pass"<<endl;
+        }
+        else
+        {
+            cout<<"Fail"<<endl;
+        }
+        
+    }
+	return 0;
+}
