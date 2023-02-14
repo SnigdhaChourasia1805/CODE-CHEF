@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T;
+	cin>>T;
+	for(int i=1;i<=T;i++)
+	{
+	    int A,B,C;
+	    cin>>A>>B>>C;
+	    if(A>=B && B>=C)
+	    {
+	        cout<<(A+B)<<endl;
+	    }
+	     else if(A>=B && B<=C)
+	    {
+	        cout<<(A+C)<<endl;
+	    }
+	    else if(B>=C && C>=A)
+	    {
+	        cout<<(B+C)<<endl;
+	    }
+	     else if(B>=C && A>=C)
+	    {
+	        cout<<(B+A)<<endl;
+	    }
+	    else if(C>=A && A>=B) 
+	    {
+	        cout<<(C+A)<<endl;
+	    }
+	    else
+	    {
+	        cout<<(C+B)<<endl;
+	    }
+	}
+	return 0;
+}
