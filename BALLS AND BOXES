@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    
+    while(t--) {
+        int n, k, a;
+        cin>>n>>k;
+        a = k*(k+1)/2;
+        
+        if (n < a) cout<<"No"<<endl;
+        else cout<<"Yes"<<endl;
+        
+    }
+    return 0;
+}
