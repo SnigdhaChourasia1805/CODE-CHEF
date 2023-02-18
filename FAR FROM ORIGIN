@@ -1,0 +1,26 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main() {
+	int t,x1,y1,x2,y2,p,q;
+	cin>>t;
+	while(t--){
+	  cin>>x1>>y1>>x2>>y2;
+	  p =  ((x1*x1)+(y1*y1));
+	  q =   ((x2*x2)+(y2*y2));
+	  
+	  if(p<q){	 
+	     cout << "BOB" << std::endl;
+	 }
+	  else if(p==q){
+	     cout << "EQUAL" << std::endl;
+	 }
+	 
+	else if(p>q){
+	     cout << "ALEX" << std::endl;
+	 }
+	 
+	}
+	return 0;
+}
