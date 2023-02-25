@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	
+	while(t--) {
+	    int a, b, c, d;
+	    cin>>a>>b>>c;
+	    d = min(min(a, b), c);
+	    
+	    if (d == a) cout<<"Draw";
+	    else if (d == b) cout<<"Bob";
+	    else cout<<"Alice";
+	    cout<<endl;
+	}
+	return 0;
+}
