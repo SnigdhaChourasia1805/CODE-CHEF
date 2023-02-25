@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{ int t,n,i,j,flag;
+string s;
+    cin>>t;
+    while(t--)
+    {
+        cin>>n;
+        cin>>s;
+        for(i=0,j=n/2;i<n/2,j<n;i++,j++)
+        {
+            if(s[i]==s[j])
+            {
+                flag=1;
+            }
+            else
+            {
+                flag=0;
+                cout<<"no"<<endl;
+                break;
+            }
+        }
+        if(flag==1)
+        {
+            cout<<"yes"<<endl;
+        }
+    }
+}
