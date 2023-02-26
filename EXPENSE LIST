@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n, x, income;
+	    cin>>n>>x;
+	    income = pow(2, x);
+	    for(int i = 1; i<=n; i++){
+	        income = income/2;
+	    }
+	    cout<<income;
+	    cout<<endl;
+	}
+	return 0;
+}
