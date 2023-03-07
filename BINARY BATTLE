@@ -1,1 +1,18 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,a,b;
+	    cin>>n>>a>>b;
+	    int matchtime=0;
+	    while(n>1){
+	        n/=2;
+	        matchtime=matchtime+a+b;
+	    }
+	    cout<<matchtime-b<<endl;
+	}
+	return 0;
+}
