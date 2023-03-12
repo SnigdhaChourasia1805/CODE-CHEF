@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n, t;
+	cin>>t;
+	while (t>0){
+	    int n;
+	    int fact=1;
+	    cin>>n;
+	    while(n>0){
+	        fact=fact*n;
+	        n--;
+	    }
+	    cout<<fact<<endl;
+	    t--;
+	}
+	return 0;
+}
