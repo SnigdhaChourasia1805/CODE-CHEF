@@ -1,0 +1,13 @@
+# cook your dish here
+
+for _ in range(int(input())):
+    salary = int(input())
+    if salary < 1500:
+        hra = salary*.1
+        da = salary*.9 
+    else:
+        hra = 500 
+        da = salary*.98
+    
+    g_salaray = salary + hra + da 
+    print(g_salaray)
