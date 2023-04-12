@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x,y,t;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>x>>y;
+	    int j=0;
+	    while(y<x)
+	    {
+	        j+=1;
+	        y=y+j;
+	        
+	    }
+	    cout<<j<<endl;
+	}
+	
+	return 0;
+}
